@@ -10,7 +10,14 @@ const int FPS = 60;
 
 // Player settings
 const float PLAYER_SPEED = 200.0f; // pixels per second
-const int PLAYER_SIZE = 32;
+const int PLAYER_SIZE = 48; // Size of the player hitbox
+
+// Sprite settings
+const int SPRITE_SIZE = 16; // Original sprite size in pixels
+const int SPRITE_CELL_SIZE = 48; // Size of each cell in the sprite sheet (192px / 4 = 48px)
+const float SPRITE_SCALE = 3.0f; // Scale factor for display (makes it 48x48)
+const float ANIMATION_SPEED = 0.1f; // Seconds per animation frame
+const char PLAYER_SPRITE_PATH[] = "assets/Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png";
 
 // Colors (RGBA)
 struct GameColor {
