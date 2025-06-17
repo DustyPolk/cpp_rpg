@@ -1,5 +1,5 @@
-#include "Player.h"
-#include "Constants.h"
+#include "entities/Player.h"
+#include "config/Constants.h"
 #include <cmath>
 #include <iostream>
 

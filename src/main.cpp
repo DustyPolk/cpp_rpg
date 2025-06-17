@@ -1,7 +1,7 @@
 #include "raylib.h"
 #include <iostream>
-#include "Game.h"
-#include "Constants.h"
+#include "core/Game.h"
+#include "config/Constants.h"
 
 int main(int argc, char* argv[]) {
     Game game;
