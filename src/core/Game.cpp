@@ -1,5 +1,5 @@
-#include "Game.h"
-#include "Constants.h"
+#include "core/Game.h"
+#include "config/Constants.h"
 #include <iostream>
 
 Game::Game() : isRunning(false), screenWidth(0), screenHeight(0) {}

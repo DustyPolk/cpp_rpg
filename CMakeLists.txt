@@ -9,15 +9,17 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(RAYLIB REQUIRED raylib)
 
 # Include directories
-include_directories(include)
+include_directories(include config)
 include_directories(${RAYLIB_INCLUDE_DIRS})
 
 # Source files
 set(SOURCES
     src/main.cpp
-    src/Game.cpp
-    src/Player.cpp
-    src/Wall.cpp
+
+    src/core/Game.cpp
+
+    src/entities/Player.cpp
+    src/entities/Wall.cpp
 )
 
 # Create executable

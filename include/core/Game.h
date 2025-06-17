@@ -4,8 +4,8 @@
 #include "raylib.h"
 #include <memory>
 #include <vector>
-#include "Player.h"
-#include "Wall.h"
+#include "entities/Player.h"
+#include "entities/Wall.h"
 
 class Game {
 private:

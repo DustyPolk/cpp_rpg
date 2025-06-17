@@ -1,4 +1,4 @@
-#include "Wall.h"
+#include "entities/Wall.h"
 
 Wall::Wall(float x, float y, float width, float height, Color color)
     : x(x), y(y), width(width), height(height), color(color) {}
